@@ -1,0 +1,9 @@
+server:
+  port: 8080
+  servlet:
+    context-path: /demo
+version: "@project.version@"
+artifact: "@project.groupId@:@project.artifactId@:@project.version@"
+spring:
+  profiles:
+    active: dev

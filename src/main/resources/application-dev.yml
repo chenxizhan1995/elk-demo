@@ -1,0 +1,6 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: data_governance
+    password: 123456Ab?
+    url: jdbc:mysql://172.16.12.16:3306/data_governance
